@@ -1,0 +1,4 @@
+unidecode
+torch
+nltk
+pattern
