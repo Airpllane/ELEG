@@ -18,6 +18,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-#CMD ["ls"]
 CMD ["python3", "/app/gui2.py"]
-#ENTRYPOINT ["python3"]
