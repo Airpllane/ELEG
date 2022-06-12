@@ -39,7 +39,7 @@ def save_exercise(event):
             handle.write('\n')
             handle.write('~' + answers[i])
         handle.write('\n')
-        handle.write('}')
+        handle.write('}\n')
 
 def good_sentence(event):
     with open('good.txt', 'a+') as handle:
