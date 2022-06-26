@@ -30,7 +30,7 @@ with open('vectorizer.pickle', 'rb') as handle:
     vectorizer = pickle.load(handle)
     
 #%%
-#преобразования списка частей речи в матрицу чисел
+#преобразование списка частей речи в матрицу чисел
 Xfs = vectorizer.transform(tags_and_type['as_tags']).toarray()
 yfs = tags_and_type['type']
 yfs_with_numbers = np.copy(yfs)
